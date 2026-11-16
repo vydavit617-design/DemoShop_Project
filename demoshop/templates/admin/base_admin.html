@@ -1,1 +1,0 @@
-{% extends 'base.html' %}{% block content %}<div class="admin-head"><div><p class="eyebrow">STORE MANAGEMENT</p><h1>Admin panel</h1></div><div><a href="{{ url_for('admin_dashboard') }}">Dashboard</a> · <a href="{{ url_for('admin_orders') }}">Orders</a> · <a href="{{ url_for('admin_logout') }}">Logout</a></div></div>{% block admin_content %}{% endblock %}{% endblock %}
